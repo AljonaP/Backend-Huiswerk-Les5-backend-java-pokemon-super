@@ -34,7 +34,7 @@ Dit betekent ook dat een groot deel van de methodes al benoemd zullen zijn. Dit 
 
 ## Stappenplan
 Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo goed weet waar je moet beginnen, kun je onderstaand stappenplan gebruiken:
-1. Maak de volgende klassen aan:
+1. [x] Maak de volgende klassen aan:
    - Pokemon (`abstract`)
    - FirePokemon
    - WaterPokemon
@@ -44,17 +44,17 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
    - PokemonGymImpl
    - PokemonGymOwner
    - PokemonTrainer
-2. In de klasse `Variabelen` staan verschillende variabelen met tips. Plaats deze in de juiste klassen, die je zojuist hebt aangemaakt en geef ze de juiste datatypen.
-3. Geef alle variabelen getters en setters als ze in de juiste klasse staan.
-4. In de klasse `Methodes` staan de methodes die minimaal gebruikt moeten worden binnen de applicatie. Verplaats deze naar de juiste klassen.
-5. De aanval-methodes moeten de volgende eigenschappen hebben:
+2. [x] In de klasse `Variabelen` staan verschillende variabelen met tips. Plaats deze in de juiste klassen, die je zojuist hebt aangemaakt en geef ze de juiste datatypen.
+3. [x] Geef alle variabelen getters en setters als ze in de juiste klasse staan.
+4. [x] In de klasse `Methodes` staan de methodes die minimaal gebruikt moeten worden binnen de applicatie. Verplaats deze naar de juiste klassen.
+5. [x] De aanval-methodes moeten de volgende eigenschappen hebben:
   - een `system.out.println` die vertelt wie wie aanvalt met welke aanval (concatenation met variabelen, b.v.: "Bulbasaur attacks Charizard with leafStorm");
   - een beslissingstructuur die kijkt welk type de vijand heeft;
   - aan de hand van de beslissingstructuur moet de vijand hp punten verliezen (per type verschilt het aantal punten);
   - een `system.out.println` die aangeeft wat de aanval voor effect heeft (concatenation met variabelen, b.v.: "Charizard loses 15 hp");
   - vergeet de hp van de vijand niet te verlagen;
   - sluit de methode af met een `system.out.println` die de resteren hp waarde weergeeft van de vijand;
-6. De volgende methodes hebben nog een extra functie:
+6. [x] De volgende methodes hebben nog een extra functie:
   - `rainDance` heeft geen effect op electric Pokemons maar geeft een `system.out.println` met de boodschap: "has no effect on (vijand)";
   - `rainDance` levert een hp boost aan vijanden grass-types;
   - `tunder` levert een hp boost aan electric Pokemons;
